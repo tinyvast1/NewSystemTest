@@ -1,0 +1,76 @@
+.blog
+    padding-top: 85.01px
+    width: calc( 100% - 48px )
+    background-color: #fff
+    border-radius: 10px 10px 0 0
+    position: relative
+    z-index: 600
+    margin: 0 auto
+    &__title
+        font-family: 'RobotoSlab'
+        font-weight: 600
+        font-size: 30px
+        color: #344767
+.blog-items
+    margin-top: 43px
+    display: grid
+    grid-template-columns: repeat(4, 3fr)
+    gap: 0 24px
+.blog-item
+    &-notext
+        position: relative
+    &__img
+        height: 200px
+        width: 100%
+        border-radius: 8px
+        object-fit: cover
+        &-notext
+            position: absolute
+            height: 100%
+            z-index: -10
+    &__title
+        margin-top: 26px
+        font-weight: 700
+        font-size: 20px
+        color: #344767
+        &-notext
+            font-family: 'RobotoSlab'
+            font-weight: 600
+            font-size: 36px
+            color: #fff
+            margin: 48px 0 0 25px
+    &__text
+        margin-top: 10px
+        font-weight: 400
+        font-size: 16px
+        color: #7B809A
+    &__btns
+        margin-top: 25px
+        display: flex
+        justify-content: space-between
+    &__btn
+        border: none
+        background: none
+        cursor: pointer
+        span
+            font-weight: 400
+            font-size: 14px
+            color: #1A73E7
+        img
+            margin-left: 12px
+        &-notext
+            margin: 132px 0 0 25px
+            span
+                color: #fff
+    &__like
+        border: none
+        background: none
+        cursor: pointer
+        display: flex
+        justify-content: center
+        span
+            font-weight: 400
+            font-size: 14px
+            color: #1A73E7
+            margin-right: 6px
+
